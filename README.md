@@ -4,6 +4,7 @@ Create Web Application to handle REST API Test Automation in Agile Methodology
 This Application should support the below functionalities
 
 1. Application should support Test Management life cycle of API
+
   a. Create/Update of Project
   b. Create/Update of Sprint details
   c. Add/Import Swaggers
