@@ -5,9 +5,11 @@ This Application should support the below functionalities
 
 1. Application should support Test Management life cycle of API
 
-  a. Create/Update of Project
-  b. Create/Update of Sprint details
-  c. Add/Import Swaggers
+    a. Create/Update of Project
+
+    b. Create/Update of Sprint details
+
+    c. Add/Import Swaggers
   d. CURD of API Workflow
   e. Auto Generation of Unit level Test Cases
   f. Test Plan display Test Case details
