@@ -1,0 +1,24 @@
+{
+  "name": "maveric_rest_automation",
+  "version": "1.0.0",
+  "description": "Create Web Application to handle REST API Test Automation in Agile Methodology",
+  "main": "index.js",
+  "scripts": {
+    "test": "Test_Application"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GouthamKumarPagadala/Maveric_REST_Automation.git"
+  },
+  "keywords": [
+    "Rest",
+    "Api",
+    "Automation"
+  ],
+  "author": "Goutham Kumar Pagadala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GouthamKumarPagadala/Maveric_REST_Automation/issues"
+  },
+  "homepage": "https://github.com/GouthamKumarPagadala/Maveric_REST_Automation#readme"
+}
