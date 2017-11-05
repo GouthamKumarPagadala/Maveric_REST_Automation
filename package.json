@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GouthamKumarPagadala/Maveric_REST_Automation.git"
+    "url": "git+https://github.com/GouthamKumarPagadala/REST_Automation.git"
   },
   "keywords": [
     "Rest",
@@ -18,7 +18,7 @@
   "author": "Goutham Kumar Pagadala",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/GouthamKumarPagadala/Maveric_REST_Automation/issues"
+    "url": "https://github.com/GouthamKumarPagadala/REST_Automation/issues"
   },
-  "homepage": "https://github.com/GouthamKumarPagadala/Maveric_REST_Automation#readme"
+  "homepage": "https://github.com/GouthamKumarPagadala/REST_Automation#readme"
 }
