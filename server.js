@@ -1,3 +1,5 @@
+/******Creating Basic Server
+
 var http = require('http');
 var fs = require('fs');
 
@@ -15,4 +17,21 @@ function onRequest(request,response){
   response.write("Error 404: Page Not Found");
   response.end();
 }
-}
+}*/
+
+//*******Creating Server using Express Framework
+var express = require('express');
+var app = express();
+app.use(express.static('Workspace'));
+
+app.get('/', function (req, res) {
+  //res.send(__dirname);
+   res.sendFile( __dirname + "/" + "index.html" );
+})
+
+var server = app.listen(8888, function () {
+   var host = server.address().address
+   var port = server.address().port
+   console.log(host);
+   console.log("Example app listening at http://%s:%s", host, port)
+})
