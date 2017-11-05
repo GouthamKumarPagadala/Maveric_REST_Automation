@@ -1,0 +1,67 @@
+html{
+  -ms-text-size-adjust:100%;
+  -webkit-text-size-adjust:100%
+  }
+
+  html,body{font-family:Verdana,sans-serif;font-size:16px;line-height:1.5}html{overflow-x:hidden}
+  h1{font-size:36px}
+  h2{font-size:30px}
+  h3{font-size:24px}
+  h4{font-size:20px}
+  h5{font-size:18px}
+  h6{font-size:16px}.w3-serif{font-family:serif}
+  h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}.w3-wide{letter-spacing:4px}
+  hr{border:0;border-top:1px solid #eee;margin:20px 0}
+
+.main{
+    padding-left : 15px;
+    padding-top :5px;
+
+
+}
+.Menu_bar{
+  background-color:#000000!important;
+  font-size: 25px;
+  height:30px;
+  width:100%;
+}
+.sidebar{
+  font-size: 20px;
+  height:30px;
+  width:100px;
+  text-align : center;
+  display:block;
+  padding-left : 0px;
+  color:#fff!important;
+}
+.sidebar-content {
+    display: none;
+    height:100%;
+    width:100px;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+    padding: 0px 0px;
+    z-index: 1;
+
+}
+.animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+.sidebar-button{
+  width:100%;
+  text-align:center;
+  padding-top:20px;
+  padding-bottom:10px;
+  background-color:#009688!important;
+
+}
+.sidebar:hover {
+  marginLeft = "25%";
+}
+.sidebar:hover .sidebar-content{
+  display : block;
+  width = 15%;
+}
+.sidebar:hover .Menu_bar{
+  display :none;
+}
