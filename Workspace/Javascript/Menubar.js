@@ -1,5 +1,4 @@
 function Menubar() {
-    var jsontext = '{"Menu_bar":["Dashboard","Swaggers","TestPlan","WorkFlow","TestLab","Run"]}';
     var path = "./Database/Application/Menubar.json"
     var txt = null;
     var xhttp = new XMLHttpRequest();
@@ -9,7 +8,6 @@ function Menubar() {
             var getContact = JSON.parse(txt);
             sidebar = document.getElementById("sidebar");
             for (i = 0; i < getContact.Menu_bar.length; i++) {
-                //console.log(getContact.Menu_bar[i]);
                 div = document.createElement("div");
                 div.className = "sidebar-button";
                 div.style = "width:100%;  text-align:center; ";
@@ -23,7 +21,6 @@ function Menubar() {
             }
         }
     };
-    var j = {};
     xhttp.open('GET', path, true);
     xhttp.send();
 }
