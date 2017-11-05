@@ -45,8 +45,9 @@ html{
     padding: 0px 0px;
     z-index: 1;
 
+
 }
-.animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+.animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{top:0px;opacity:0} to{top:0;opacity:1}}
 .sidebar-button{
   width:100%;
   text-align:center;
